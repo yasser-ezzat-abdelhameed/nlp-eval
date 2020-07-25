@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"
+    />
+
+    <title>NLP Eval</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav>
+        <a href="#" class="nav-logo">
+          <span>Logo</span>
+        </a>
+        <ul class="nav-right-section"></ul>
+      </nav>
+    </header>
+
+    <main id="content">
+      <section>
+        <form class="" onsubmit="return Client.handleSubmit(event)">
+          <input id="name" type="text" name="input" value="" placeholder="Name" />
+          <input type="submit" name="" value="submit" />
+        </form>
+      </section>
+      <section id="results">
+        <strong>Form Results:</strong>
+        <div></div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <p><small>© NLP Eval 2020</small></p>
+    </footer>
+    <div class="loading-indicator hide">
+      <div class="lds-ring">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("/service-worker.js");
+        });
+      }
+    </script>
+  </body>
+</html>

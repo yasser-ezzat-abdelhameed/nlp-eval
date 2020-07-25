@@ -1,0 +1,14 @@
+@import "colors.scss";
+
+form {
+  border: 1px solid $dark;
+  border-radius: 3px;
+  padding: 2.4em;
+}
+
+input {
+  padding: 0.4em 1.3em;
+  width: 100%;
+  line-height: 1em;
+  margin: 0.75em 0;
+}

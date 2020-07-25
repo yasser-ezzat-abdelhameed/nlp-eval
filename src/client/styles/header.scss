@@ -1,0 +1,26 @@
+@import "colors.scss";
+
+#header {
+  height: 3em;
+  background-color: $dark;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  color: $off-white;
+}
+
+#header a {
+  color: $off-white;
+}
+
+#header nav {
+  display: flex;
+  flex: 1;
+}
+
+#header .nav-logo {
+  flex: 1;
+  padding-left: 1em;
+  display: flex;
+  align-items: center;
+}

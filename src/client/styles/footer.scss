@@ -1,0 +1,11 @@
+@import "colors.scss";
+
+#footer {
+  height: 3em;
+  background-color: $white;
+  color: $purple;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
