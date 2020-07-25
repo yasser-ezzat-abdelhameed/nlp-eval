@@ -1,6 +1,5 @@
 async function handleSubmit(event) {
   event.preventDefault();
-  console.log(event);
 
   let formText = document.getElementById("name").value;
   if (!Client.checkForName(formText)) {
