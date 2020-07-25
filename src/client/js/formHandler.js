@@ -13,7 +13,7 @@ async function handleSubmit(event) {
 
   const resultElm = document.querySelector("#results > div");
   resultElm.innerHTML = null;
-  const response = await fetch("http://localhost:5000/api/get-data", {
+  const response = await fetch(`/api/get-data`, {
     method: "POST",
     headers: {
       "content-type": "application/json",
